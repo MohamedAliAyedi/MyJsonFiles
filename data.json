@@ -1,0 +1,228 @@
+{
+    "agent" : [
+        {
+            "mat": 1,
+            "np": "Naim",
+            "address": "Bardo",
+            "num_tel": "222222",
+            "IU": "141414",
+            "situation": "célib",
+            "nb_enfant":  0,
+            "societe": "1 (TUNIS)",
+            "echel": 3,
+            "echelon": 4,
+            "emploi": "1 (Ingénieur)",
+            "fonction": "1 (Directeur)",
+            "postion": "1 (Titulaire)",
+            "college": "1 (Cadre)"
+        },
+        {
+            "mat": 2,
+            "np": "Bassem",
+            "address": "Kram",
+            "num_tel": "3333333333",
+            "IU": "25252525",
+            "situation": "mariée",
+            "nb_enfant":  2,
+            "societe": "1 (TUNIS)",
+            "echel": 2,
+            "echelon": 5,
+            "emploi": "2 (Gestonaaire)",
+            "fonction": "2 (Sous directeur)",
+            "postion": "12 (contractue)",
+            "college": "2 (maitrise)"
+        }
+    ],
+
+    "SalaireBase": [
+        {
+            "echel": "1",
+            "echelon": "1",
+            "montant": "10"
+        },
+        {
+            "echel": "1",
+            "echelon": "2",
+            "montant": "20"
+        },
+        {
+            "echel": "3",
+            "echelon": "4",
+            "montant": "50"
+        },
+        {
+            "echel": "2",
+            "echelon": "5",
+            "montant": "60"
+        }
+    ],
+    "Payroll": [
+        {
+            "code": 10,
+            "libelle": "Salaire de base",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "gain"
+        },
+        {
+            "code": 20,
+            "libelle": "indemnité de fonction",
+            "impot": "oui",
+            "CNSS": "non",
+            "Assurance": "",
+            "Type": "gain"
+        },
+        {
+            "code": 30,
+            "libelle": "indemnité de logement",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "gain"
+        },
+        {
+            "code": 40,
+            "libelle": "indemnité de gestion",
+            "impot": "non",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "gain"
+        },
+        {
+            "code": 50,
+            "libelle": "indemnité d'ingénieur",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "gain"
+        },
+        {
+            "code": 60,
+            "libelle": "CNSS",
+            "impot": "non",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "retenue"
+        },
+        {
+            "code": 70,
+            "libelle": "Impot",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "retenue"
+        },
+        {
+            "code": 80,
+            "libelle": "Salaire imposable",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "retenue"
+        },
+        {
+            "code": 90,
+            "libelle": "Salaire Brut",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "retenue"
+        },
+        {
+            "code": 100,
+            "libelle": "Salaire Brut CNSS",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "retenue"
+        },
+        {
+            "code": 110,
+            "libelle": "Salaire Net",
+            "impot": "oui",
+            "CNSS": "oui",
+            "Assurance": "",
+            "Type": "retenue"
+        }
+    ],
+    "indemnity": [
+        {
+            "code": "20(indemnité fonction)",
+            "echel": "",
+            "echelon": "",
+            "emploi": "",
+            "fonction": "1(directeur)",
+            "college": "",
+            "montant": "28"
+        },
+        {
+            "code": "20(indemnité fonction)",
+            "echel": "",
+            "echelon": "",
+            "emploi": "",
+            "fonction": "2(sous directeur)",
+            "college": "",
+            "montant": "230"
+        },
+        {
+            "code": "20(indemnité fonction)",
+            "echel": "",
+            "echelon": "",
+            "emploi": "",
+            "fonction": "3(chef service)",
+            "college": "",
+            "montant": "150"
+        },
+        {
+            "code": "",
+            "echel": "3",
+            "echelon": "4",
+            "emploi": "",
+            "fonction": "",
+            "college": "",
+            "montant": "30"
+        },
+        {
+            "code": "",
+            "echel": "2",
+            "echelon": "",
+            "emploi": "",
+            "fonction": "",
+            "college": "",
+            "montant": "20"
+        },
+        {
+            "code": "30(indemnité de logement)",
+            "echel": "",
+            "echelon": "",
+            "emploi": "",
+            "fonction": "",
+            "college": "1(cadre)",
+            "montant": ""
+        }
+    ],
+    "tax": [
+        {
+            "lowerLimit": 0,
+            "UpperLimit": 100,
+            "Rate": "2%"
+        },
+        {
+            "lowerLimit": 100,
+            "UpperLimit": 500,
+            "Rate": "10%"
+        },
+        {
+            "lowerLimit": 500,
+            "UpperLimit": 1000,
+            "Rate": "20%"
+        },
+        {
+            "lowerLimit": 1000,
+            "UpperLimit": 1900,
+            "Rate": "30%"
+        },
+    ]
+
+}
